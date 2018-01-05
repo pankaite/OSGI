@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Helloworld2
+Bundle-SymbolicName: osgi.test.helloworld2
+Bundle-Version: 1.0.0
+Bundle-Activator: osgi.test.helloworld2.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.osgi.framework;version="1.3.0",
+ org.osgi.service.event;version="1.3.1",
+ osgi.test.helloworld.event,
+ osgi.test.helloworld.service
+Bundle-ActivationPolicy: lazy
